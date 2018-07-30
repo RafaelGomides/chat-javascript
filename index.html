@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>THE LEGEND</title>
+  <script src="js/chat.js"></script>
+  <script src="js/model/user.js"></script>
+</head>
+<body>
+  <h1>The Legend Chat</h1>
+  <div>
+    <div>
+      <h4>A side</h4>
+      Name: <input id="txtSideAName"></input>
+      Type <input id="txtSendAMsg" onkeyup="typingA()"></input>
+      <button type="button" onclick="sendA()">Send</button>
+    </div>
+    <div>
+      <h4>B side</h4>
+      Name: <input id="txtSideBName"></input>
+      Type <input id="txtSendBMsg" onkeyup="typingB()"></input>
+      <button type="button" onclick="sendB()">Send</button>
+    </div>
+  </div>
+  <hr>
+  <div id="chatLog">
+  </div>
+</body>
+</html>
